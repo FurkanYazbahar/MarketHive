@@ -5,7 +5,7 @@ option csharp_namespace = "Discount.Grpc";
 package discount;
 
 // The Discount service definition.
-service DiscountService {
+service DiscountProtoService {
 	// Discount CRUD Opreations
 	rpc GetDiscount(GetDiscountRequest) returns (CouponModel);
 	rpc CreateDiscount(CreateDiscountRequest) returns (CouponModel);
