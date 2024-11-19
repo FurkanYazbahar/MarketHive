@@ -11,4 +11,16 @@
     <ProjectReference Include="..\Ordering.Domain\Ordering.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Orders\Commands\DeleteOrder\" />
+    <Folder Include="Orders\Commands\UpdateOrder\" />
+    <Folder Include="Orders\Queries\GetOrderByName\" />
+    <Folder Include="Orders\Queries\GetOrders\" />
+    <Folder Include="Orders\Queries\GetOrdersByCustomer\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+  </ItemGroup>
+
 </Project>
