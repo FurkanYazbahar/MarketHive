@@ -2,6 +2,7 @@
 ** Style Simple Ecommerce Theme for Bootstrap 4
 ** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
 */
+/*
 body {
     background-image: url('/images/banner/backgroundbanner.jpg');
     background-size: cover;
@@ -9,7 +10,7 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
+*/
 .bloc_left_price {
     color: #c01508;
     text-align: center;
